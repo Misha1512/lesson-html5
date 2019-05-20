@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:900&display=swap');
+.logo1 {
+    padding-top: 25px;
+    padding-left: 5px;
+}
+
+header {
+    display: flex;
+    max-width: 1600px;
+    padding-left: 230px;
+    height: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.17);
+    border: 1px solid #ececec;
+    background-color: #ffffff;
+}
+
+body {
+
+    /* основное содержимое */
+    position: relative;
+    /* боковая колонка перемещается в рамках основного содержания */
+    margin: 0 auto;
+    /* сайт располагается по центру экрана */
+    max-width: 1600px;
+    /* резиновая, растягивается до значения в 1200px */
+
+}
+
+.button1 {
+    width: 87px;
+    height: 38px;
+    border-radius: 3px 0 0 3px;
+    border: 1px solid #e6e6e6;
+    background-color: #cdcdcc;
+    background-image: linear-gradient(to bottom, #f9f9f9 0%, #f5f5f5 100%);
+}
+
+.buttonpassion {
+    padding-top: 35px;
+    padding-left: 37px;
+}
+
+.button1:hover {
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .18), 0 4px 15px 0 rgba(0, 0, 0, .15);
+}
+
+.d1 {
+    margin-top: 35px;
+
+}
+
+.d1 input {
+    position: absolute;
+    /* Style for "Rounded Re" */
+    color: #a4a4a4;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 32px;
+    /* Text style for "S, earch f" */
+    letter-spacing: 0.35px;
+    width: 317px;
+    height: 35px;
+    border-radius: 0 3px 3px 0;
+    border: 1px solid #e6e6e6;
+    background-color: #ffffff;
+}
+
+.d1 a img {
+    position: relative;
+    margin-top: 5px;
+    margin-left: 285px;
+    height: 30px;
+    width: 30px;
+
+    background-color: #ffffff;
+}
+
+.d1 a:hover {
+    padding: 2px 0px 0 0;
+}
+
+.basket {
+    padding-top: 35px;
+    padding-left: 360px;
+    border: none;
+    width: 32px;
+    height: 29px;
+    background-color: #ffffff;
+}
+
+.basket a :hover {
+    margin: 2px 2px;
+}
+
+.buttonmy button {
+    margin-top: 31px;
+    margin-left: 26px;
+    width: 130px;
+    border: none;
+    height: 38px;
+    background-color: #f16d7f;
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 32px;
+    /* Text style for "M, y Accou" */
+    letter-spacing: 0.38px;
+}
+
+.buttonmy button:hover {
+    color: #fefefe;
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .18), 0 4px 15px 0 rgba(0, 0, 0, .15);
+}
+
+nav {
+    max-width: 1600px;
+    padding-left: 230px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.17);
+    border: 1px solid #ececec;
+    background-color: #ffffff;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 195px;
+    list-style: none;
+    width: 680px;
+    height: 10px;
+    color: #222222;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+
+}
+
+nav ul a {
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li :hover {
+    text-decoration: underline;
+}
+
+nav ul li :active {
+    color: brown;
+}
+
+main {
+
+    max-width: 1600px;
+    height: 610px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.17);
+    border: 1px solid #ececec;
+    background-color: #ffffff;
+    background-image: url(../img/Layer_24.png);
+    background-position-x: right;
+}
+
+.brand {
+    margin-top: -35px;
+    margin-left: 19px;
+    width: 485px;
+    height: 92px;
+}
+.brand h2 {
+    margin-top: 35px;
+    margin-bottom: -20px;
+color: #222222;
+font-family: "Lato - Black";
+font-weight: 400;
+text-transform: uppercase;
+    font-size: 50px;
+letter-spacing: 1.5px;
+
+}
+.brand h3 {
+    margin-top: 10px;
+letter-spacing: 1px;
+    font-size: 40px;
+   
+}
+.brand span{
+color: #f16d7f;
+    position: absolute;
+}
+
+.gbrand {
+    margin-top: 276px;
+    margin-left:260px;
+    width: 485px;
+    height: 92px;
+    display: flex;
+}
