@@ -203,8 +203,30 @@ color: #f16d7f;
 .slade2 {
     margin-top: 545px;
     margin-left: 180px;
+    max-width: 1606px;
 }
 
 .slade2st1 {
+    position: absolute;
+    top: 765px;
+display: flex;
+    height: 835px;
+    flex-wrap: wrap;
+	flex-direction: column;
+    justify-content: flex-end;
     
+}
+
+.slade2st2 {
+    width: 800px;
+    margin-left: 602px;
+    
+}
+.slade2st2 img{
+    margin-bottom: 20px;
+}
+
+
+#acssories {
+    margin-top:35px;
 }
