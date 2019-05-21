@@ -9,9 +9,7 @@ header {
     max-width: 1600px;
     padding-left: 230px;
     height: 100px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.17);
-    border: 1px solid #ececec;
-    background-color: #ffffff;
+  
 }
 
 body {
@@ -23,7 +21,9 @@ body {
     /* сайт располагается по центру экрана */
     max-width: 1600px;
     /* резиновая, растягивается до значения в 1200px */
-
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.17);
+    border: 1px solid #ececec;
+    background-color: #ffffff;
 }
 
 .button1 {
@@ -117,9 +117,7 @@ body {
 nav {
     max-width: 1600px;
     padding-left: 230px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.17);
-    border: 1px solid #ececec;
-    background-color: #ffffff;
+   
 }
 
 nav ul {
@@ -155,9 +153,6 @@ main {
 
     max-width: 1600px;
     height: 610px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.17);
-    border: 1px solid #ececec;
-    background-color: #ffffff;
     background-image: url(../img/Layer_24.png);
     background-position-x: right;
 }
@@ -191,9 +186,15 @@ color: #f16d7f;
 }
 
 .gbrand {
-    margin-top: 276px;
-    margin-left:260px;
+    margin-top: 20px;
     width: 485px;
     height: 92px;
     display: flex;
+}
+
+.positionbrand {
+    position: absolute;
+    display: flex;
+    margin-top: 235px;
+    margin-left: 236px;
 }
