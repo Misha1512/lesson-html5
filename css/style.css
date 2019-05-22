@@ -210,7 +210,7 @@ main {
 }
 
 .slade2st1 {
-margin-top:15px;
+    margin-top: 15px;
     position: absolute;
     top: 767px;
     display: flex;
@@ -232,9 +232,9 @@ margin-top:15px;
 
 
 #acssories {
-    margin-top: 500px;
+    margin-top: 480px;
     width: 560px;
-height: 261px;
+    height: 261px;
 }
 
 
@@ -256,6 +256,18 @@ height: 261px;
 }
 
 .sl1pic1 h3 span {
-  color: #f16d7f;
+    color: #f16d7f;
 }
 
+
+.acssories1 a h3 {
+    position: absolute;
+    margin-top: -210px;
+    width: 225px;
+    height: 50px;
+    background-color: #ffffff;
+    text-align: center;
+
+}
+
+.acssories1 {}
