@@ -210,6 +210,7 @@ main {
 }
 
 .slade2st1 {
+    max-width: 1600px;
     margin-top: 15px;
     position: absolute;
     top: 767px;
@@ -242,7 +243,7 @@ main {
 
 .sl1pic1 {
     position: relative;
-    width: 225px;
+    width: 265px;
     height: 82px;
     background-color: #ffffff;
 }
@@ -251,9 +252,12 @@ main {
     position: absolute;
     margin-top: -526px;
     background: #ffffff;
-    font-size: 30px;
-    letter-spacing: 0.75px;
-    text-transform: uppercase;
+   color: #222222;
+font-family: "Lato - Black";
+font-size: 27px;
+font-weight: 400;
+text-transform: uppercase;
+    padding: 10px;
 }
 
 .sl1pic1 h3 span {
@@ -266,6 +270,8 @@ main {
     margin-top: -210px;
     width: 225px;
     height: 60px;
+    color: #222222;
+    font-family: "Lato - Black";
     background-color: #ffffff;
     text-align: center;
    padding-top: 5px;
@@ -308,4 +314,27 @@ letter-spacing: 0.75px;
     width: 560px;
 height: 261px;
     margin-bottom: 20px;
+}
+
+.kids h3 {position: relative;
+    padding-top: 20px;
+    top: -520px;
+    width: 180px;
+height: 75px;
+background-color: #ffffff;
+    color: #222222;
+font-family: "Lato - Black";
+font-size: 18px;
+font-weight: 400;
+text-transform: uppercase;
+    
+}
+.kids a {
+    text-decoration: none;
+    text-align: center;
+}
+.kids h3 span{
+    color: #f16d7f;
+font-size: 30px;
+letter-spacing: 0.75px;
 }
