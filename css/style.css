@@ -221,6 +221,7 @@ main {
 }
 
 .slade2st2 {
+    position: absolute;
     width: 800px;
     margin-left: 602px;
 
@@ -264,10 +265,47 @@ main {
     position: absolute;
     margin-top: -210px;
     width: 225px;
-    height: 50px;
+    height: 60px;
     background-color: #ffffff;
     text-align: center;
+   padding-top: 5px;
 
 }
 
-.acssories1 {}
+.acssories1 a span {
+    color: #f16d7f;
+font-size: 30px;
+letter-spacing: 0.75px;
+}
+
+.woman h3 {
+    position: relative;
+    top: -260px;
+    width: 162px;
+height: 82px;
+background-color: #ffffff;
+    color: #222222;
+font-family: "Lato - Black";
+font-size: 25px;
+font-weight: 400;
+text-transform: uppercase;
+/* Text style for "30% offer" */
+letter-spacing: 0.45px;
+    text-align: center;
+    padding-top: 10px;
+     
+}
+.woman a{
+     text-decoration: none;
+}
+.woman h3 span {
+    color: #f16d7f;
+font-size: 30px;
+letter-spacing: 0.75px;
+}
+
+.woman {
+    width: 560px;
+height: 261px;
+    margin-bottom: 20px;
+}
