@@ -338,3 +338,7 @@ text-transform: uppercase;
 font-size: 30px;
 letter-spacing: 0.75px;
 }
+.kids a h3 :hover{
+  text-decoration: underline;
+    text-decoration-color: darkgreen;
+}
