@@ -283,7 +283,7 @@ letter-spacing: 0.75px;
      width: 560px;
     height: 260px;
 }
-.acssories1 h3 :hover{
+.acssories1 a h3 :hover{
     font-weight: bold;
 }
 
@@ -383,4 +383,22 @@ letter-spacing: 0.35px;
     width: 560px;
     height: 261px;
   
+}
+
+.tovar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: absolute;
+       margin-top: 50px;
+    width: 1180px;
+    padding-left: 175px;
+}
+.tovar a{
+    padding: 10px;
+    display: blok;
+}
+.tovar a:hover {
+    background-image: url(../img/Background.png);
+     
 }
