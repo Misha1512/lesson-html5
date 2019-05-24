@@ -384,6 +384,18 @@ letter-spacing: 0.35px;
     height: 261px;
   
 }
+.addtocart {
+    position: relative;
+    display: none ;
+    
+}
+.addtocart h3{
+    position: absolute;
+    top: 100px;
+    left: 60px;
+    font-size: 30px;
+    
+}
 
 .tovar {
     display: flex;
@@ -396,9 +408,25 @@ letter-spacing: 0.35px;
 }
 .tovar a{
     padding: 10px;
-    display: blok;
+}
+/*.tovar a:hover {
+    background-image: url(../img/Background.png);
+    
+}*/
+.tovarpic :hover .addtocart{
+    position: absolute;
+    display: block;
+       width: 261px;
+height: 280px;
 }
 .tovar a:hover {
-    background-image: url(../img/Background.png);
-     
+    background: transparent;
+   opacity: .5; 
 }
+
+.tovarpic {
+     width: 261px;
+height: 280px;
+}
+
+
