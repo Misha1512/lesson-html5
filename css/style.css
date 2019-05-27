@@ -237,20 +237,21 @@ main {
     height: 82px;
     background-color: #ffffff;
 }
-.sl1pic1 a :hover{
-  font-weight: bold;
+
+.sl1pic1 a :hover {
+    font-weight: bold;
 }
 
 .sl1pic1 h3 {
     position: absolute;
     margin-top: -526px;
     background: #ffffff;
-   color: #222222;
-font-family: "Lato - Black";
-font-size: 27px;
-font-weight: 400;
-text-transform: uppercase;
-   width: 180px;
+    color: #222222;
+    font-family: "Lato - Black";
+    font-size: 27px;
+    font-weight: 400;
+    text-transform: uppercase;
+    width: 180px;
     text-align: center;
 }
 
@@ -268,22 +269,23 @@ text-transform: uppercase;
     font-family: "Lato - Black";
     background-color: #ffffff;
     text-align: center;
-   padding-top: 5px;
-      font-weight: 400;
+    padding-top: 5px;
+    font-weight: 400;
 
 }
 
 .acssories1 a span {
     color: #f16d7f;
-font-size: 30px;
-letter-spacing: 0.75px;
+    font-size: 30px;
+    letter-spacing: 0.75px;
 }
 
-.acssories1 img{
-     width: 560px;
+.acssories1 img {
+    width: 560px;
     height: 260px;
 }
-.acssories1 a h3 :hover{
+
+.acssories1 a h3 :hover {
     font-weight: bold;
 }
 
@@ -291,110 +293,121 @@ letter-spacing: 0.75px;
     position: relative;
     top: -260px;
     width: 162px;
-height: 82px;
-background-color: #ffffff;
+    height: 82px;
+    background-color: #ffffff;
     color: #222222;
-font-family: "Lato - Black";
-font-size: 25px;
-font-weight: 400;
-text-transform: uppercase;
-/* Text style for "30% offer" */
-letter-spacing: 0.45px;
+    font-family: "Lato - Black";
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+    /* Text style for "30% offer" */
+    letter-spacing: 0.45px;
     text-align: center;
     padding-top: 10px;
-     
+
 }
-.woman a{
-     text-decoration: none;
+
+.woman a {
+    text-decoration: none;
 }
+
 .woman h3 span {
     color: #f16d7f;
-font-size: 30px;
-letter-spacing: 0.75px;
+    font-size: 30px;
+    letter-spacing: 0.75px;
 }
 
 .woman {
     width: 560px;
-height: 261px;
+    height: 261px;
     margin-bottom: 20px;
 }
 
-.kids h3 {position: relative;
+.kids h3 {
+    position: relative;
     padding-top: 20px;
     top: -520px;
     width: 180px;
-height: 75px;
-background-color: #ffffff;
+    height: 75px;
+    background-color: #ffffff;
     color: #222222;
-font-family: "Lato - Black";
-font-size: 18px;
-font-weight: 400;
-text-transform: uppercase;
-    
+    font-family: "Lato - Black";
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+
 }
+
 .kids a {
     text-decoration: none;
     text-align: center;
 }
-.kids h3 span{
+
+.kids h3 span {
     color: #f16d7f;
-font-size: 30px;
-letter-spacing: 0.75px;
+    font-size: 30px;
+    letter-spacing: 0.75px;
 }
-.woman a :hover{
-  font-weight: bold;
+
+.woman a :hover {
+    font-weight: bold;
 }
-.kids a :hover{
-  font-weight: bold;
+
+.kids a :hover {
+    font-weight: bold;
 }
 
 .slade3 {
     margin-top: 1450px;
     max-width: 1600px;
-    
+
 }
-.slade3 h2{
-   text-align: center;
-  
-height: 23px;
-color: #222222;
-font-family: Lato;
-font-size: 30px;
-font-weight: 700;
-line-height: 54px;
-/* Text style for "Fetured It" */
-letter-spacing: 0.75px;
+
+.slade3 h2 {
+    text-align: center;
+
+    height: 23px;
+    color: #222222;
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 54px;
+    /* Text style for "Fetured It" */
+    letter-spacing: 0.75px;
 }
+
 .slade3 h3 {
     text-align: center;
-   
-height: 12px;
-color: #9f9f9f;
-font-family: Lato;
-font-size: 14px;
-font-weight: 400;
-line-height: 54px;
-/* Text style for "S, hop for" */
-letter-spacing: 0.35px;
+
+    height: 12px;
+    color: #9f9f9f;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 54px;
+    /* Text style for "S, hop for" */
+    letter-spacing: 0.35px;
 }
 
 .acssories1 {
-      margin-top: 480px;
+    margin-top: 480px;
     width: 560px;
     height: 261px;
-  
+
 }
+
 .addtocart {
     position: relative;
-    display: none ;
-    
+    display: none;
+
 }
-.addtocart h3{
+
+.addtocart h3 {
     position: absolute;
     top: 100px;
     left: 60px;
     font-size: 30px;
-    
+
 }
 
 .tovar {
@@ -402,31 +415,33 @@ letter-spacing: 0.35px;
     flex-wrap: wrap;
     justify-content: center;
     position: absolute;
-       margin-top: 50px;
+    margin-top: 50px;
     width: 1180px;
     padding-left: 175px;
 }
-.tovar a{
+
+.tovar a {
     padding: 10px;
 }
+
 /*.tovar a:hover {
     background-image: url(../img/Background.png);
     
 }*/
-.tovarpic :hover .addtocart{
-    position: absolute;
-    display: block;
-       width: 261px;
-height: 280px;
-}
+
 .tovar a:hover {
     background: transparent;
-   opacity: .5; 
+    opacity: .5;
 }
 
 .tovarpic {
-     width: 261px;
-height: 280px;
+    width: 261px;
+    height: 280px;
 }
 
+.tovarpic a:hover.addtocart {
 
+    display: block;
+    position: absolute;
+   
+}
