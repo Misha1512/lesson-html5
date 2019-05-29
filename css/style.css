@@ -398,9 +398,27 @@ main {
 .image {
 display: flex; 
     padding-left: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 110px;
     float: left;
   justify-content: center;
+}
+.image h3 {
+    position: absolute;
+    margin-top: 290px;
+    width: 200px;
+color: #222222;
+font-family: Lato;
+font-size: 14px;
+font-weight: 400;
+text-transform: uppercase;
+}
+.image span {
+    width: 0px;
+color: #f16d7f;
+font-family: Lato;
+font-size: 16px;
+font-weight: 700;
+text-transform: uppercase;
 }
 .image:hover .add_to_cart {
     display: flex;
@@ -442,3 +460,64 @@ font-weight: 700;
   padding-left: 100px;
 }
 
+
+
+
+.buttonAllProduct {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 650px;
+    text-decoration:none; text-align:center; 
+ padding:9px 13px; 
+ border:solid 1px #004F72; 
+ -webkit-border-radius:10px;
+ -moz-border-radius:10px; 
+ border-radius: 0px; 
+ font:24px Arial, Helvetica, sans-serif; 
+ font-weight:bold; 
+ color:#ffffff; 
+ background-color:#f50e57; 
+ background-image: -moz-linear-gradient(top, #f50e57 0%, #f50a4c 100%); 
+ background-image: -webkit-linear-gradient(top, #f50e57 0%, #f50a4c 100%); 
+ background-image: -o-linear-gradient(top, #f50e57 0%, #f50a4c 100%); 
+ background-image: -ms-linear-gradient(top, #f50e57 0% ,#f50a4c 100%); 
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f50a4c', endColorstr='#f50a4c',GradientType=0 ); 
+ background-image: linear-gradient(top, #f50e57 0% ,#f50a4c 100%);   
+ -webkit-box-shadow:0px 0px 2px #bababa;  -moz-box-shadow: 0px 0px 2px #bababa;  box-shadow:0px 0px 2px #bababa;  
+  
+  }.buttonAllProduct:hover{
+ padding:9px 13px; 
+ border:solid 1px #004F72; 
+ -webkit-border-radius:10px;
+ -moz-border-radius:10px; 
+ border-radius: 0px; 
+ font:24px Arial, Helvetica, sans-serif; 
+ font-weight:bold; 
+ color:#ffffff; 
+ background-color:#f50e57; 
+ background-image: -moz-linear-gradient(top, #f50e57 0%, #1b368f 100%); 
+ background-image: -webkit-linear-gradient(top, #f50e57 0%, #1b368f 100%); 
+ background-image: -o-linear-gradient(top, #f50e57 0%, #1b368f 100%); 
+ background-image: -ms-linear-gradient(top, #f50e57 0% ,#1b368f 100%); 
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b368f', endColorstr='#1b368f',GradientType=0 ); 
+ background-image: linear-gradient(top, #f50e57 0% ,#1b368f 100%);   
+ -webkit-box-shadow:0px 0px 2px #bababa;  -moz-box-shadow: 0px 0px 2px #bababa;  box-shadow:0px 0px 2px #bababa;  
+  
+ }.buttonAllProduct:active{
+ padding:9px 13px; 
+ border:solid 1px #004F72; 
+ -webkit-border-radius:10px;
+ -moz-border-radius:10px; 
+ border-radius: 0px; 
+ font:24px Arial, Helvetica, sans-serif; 
+ font-weight:bold; 
+ color:#ffffff; 
+ background-color:#f50e57; 
+ background-image: -moz-linear-gradient(top, #f50e57 0%, #f50a4c 100%); 
+ background-image: -webkit-linear-gradient(top, #f50e57 0%, #f50a4c 100%); 
+ background-image: -o-linear-gradient(top, #f50e57 0%, #f50a4c 100%); 
+ background-image: -ms-linear-gradient(top, #f50e57 0% ,#f50a4c 100%); 
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f50a4c', endColorstr='#f50a4c',GradientType=0 ); 
+ background-image: linear-gradient(top, #f50e57 0% ,#f50a4c 100%);   
+ -webkit-box-shadow:-10px -6px 4px #bababa;  -moz-box-shadow: -10px -6px 4px #bababa;  box-shadow:-10px -6px 4px #bababa;   
+}
