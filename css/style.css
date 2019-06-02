@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:900&display=swap');
 
+html,
+body {
+  height: 100%;
+}
+
 .logo1 {
+
     padding-top: 25px;
-    padding-left: 5px;
 }
 
 header {
@@ -285,7 +290,7 @@ main {
     height: 260px;
 }
 
-.acssories1 a h3 :hover {
+.acssories1 a :hover {
     font-weight: bold;
 }
 
@@ -727,18 +732,187 @@ input[type="checkbox"]:checked ~ .text2 {
 
 .subscribe {
     align-items: center;
+    padding-left: 80px;
+    margin: 0px;
     width: 277px;
-height: 41px;
-color: #222224;
-font-family: Lato;
-font-size: 14px;
-font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 0.6px;
+    line-height: 54px;
+    text-transform: uppercase;
+
+}
+
+.subscribe span {
+    position: relative;
+    top: 20px;
+    letter-spacing: 0.35px;
+    line-height: 24px;
+
 }
 
 .subtext {
- 
-   position: relative;
+
+    position: relative;
     top: -870px;
     left: 1000px
+}
+
+.email {
+    position: absolute;
+    top: 3550px;
+    left: 950px;
+    width: 334px;
+    height: 48px;
+    border-radius: 23px;
+    background-color: #e1e1e1;
+    opacity: 0.67;
+    color: #222224;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 54px;
+    /* Text style for "E, nter Yo" */
+    letter-spacing: 0.35px;
+    padding-left: 20px;
+}
+
+.buttonemail {
+    position: absolute;
+    top: 3550px;
+    left: 1230px;
+    width: 104px;
+    height: 50px;
+    border-radius: 0 23px 23px 0;
+    background-color: #f16d7f;
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    /* Text style for "Subscribe" */
+    letter-spacing: 0.35px;
+}
+
+.slade6 {
+    width: 1600px;
+    margin-top: 90px;
+    padding-left: 200px;
+    display: flex;
+
+}
+
+.slade6 a img {
+    padding-bottom: 30px;
+}
+
+.textsl5 {
+    width: 427px;
+    height: 180px;
+    color: #898989;
+    font-family: Lato;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 24px;
+    /* Text style for "Objectivel" */
+    letter-spacing: 0.35px;
+}
+
+.menu2 {
+    margin-left: 100px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    color: #f16d7f;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    /* Text style for "C, OMPANY" */
+    letter-spacing: 0.45px;
+}
+
+.one {
+    position: relative;
+    padding-right: 150px;
+    left: -880px;
+    top: 60px;
+
+
+}
+
+.one a {
+    text-decoration: none;
+    color: #898989;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    /* Text style for "Home" */
+    letter-spacing: 0.4px;
+    line-height: 59px;
+    /* Text style for "Shop , Abo" */
+    letter-spacing: 0.4px;
+    line-height: 42px;
+}
+
+.one li {
+    list-style-type: none;
+
+}
+.one li a:hover{
+    color:#f16d7f; 
+}
+
+.info {
+
+    position: relative;
+    width: 400px;
+    display: flex;
+
+    left: 200px;
+}
+footer {
+   margin-top: 3450px;
+    height: 79px;
+background-color: #e6e6e6;
+  width: 100%;
+    float: left;
+    display: flex;
+    justify-content: space-between;
     
+}
+footer span{
+    padding-left: 50px;
+    padding-top: 20px;
+    color: #7a7a7a;
+font-family: Lato;
+font-size: 16px;
+font-weight: 400;
+line-height: 42px;
+/* Text style for "©,  2017" */
+letter-spacing: 0.4px;
+}
+footer 
+
+.iconfooter {
+    padding-right: 80px;
+    padding-top: 25px;
+   
+}
+.iconfooter a{
+    
+    align-items: center;
+    width: 32px;
+height: 32px;
+    padding-left: 10px;
+     color: #b2b2b2;
+font-family: "Font Awesome";
+font-size: 36px;
+font-weight: 400;
+line-height: 42px;
+
+}
+.iconfooter a i:hover{
+    justify-content: center;
+    align-items: center;
+   background-color: #f16d7f;
 }
