@@ -838,7 +838,7 @@ input[type="checkbox"]:checked ~ .text2 {
     padding-right: 150px;
     left: -880px;
     top: 60px;
-
+height: 250px;
 
 }
 
@@ -873,10 +873,10 @@ input[type="checkbox"]:checked ~ .text2 {
     left: 200px;
 }
 footer {
-   width: 100%;
+   
     height: 79px;
 background-color: #e6e6e6;
-  
+  width: 100%;
     float: left;
     display: flex;
     justify-content: space-between;
@@ -893,36 +893,21 @@ line-height: 42px;
 /* Text style for "©,  2017" */
 letter-spacing: 0.4px;
 }
-footer 
 
-.iconfooter {
-    
-    padding-right: 80px;
-    padding-top: 25px;
+.iconfooter i {
+padding-top: 20px;
+    padding-right: 40px;
+    width: 32px;
    
 }
 .iconfooter a{
-    width: 45px;
-    height: 45px;
-    align-items: center;
-    width: 32px;
-height: 32px;
-    padding-left: 10px;
      color: #b2b2b2;
 font-family: "Font Awesome";
-font-size: 36px;
+font-size: 46px;
 font-weight: 400;
 line-height: 42px;
+    
 
 }
-.iconfooter a i{
-    width: 60px;
-    height: 60px;}
-
-.iconfooter i:hover {
-    justify-content: center;
-    align-items: center;
-   background-color: #f16d7f;
-}
-
-
+.iconfooter a :hover {
+   color: #f16d7f;
