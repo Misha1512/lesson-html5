@@ -188,12 +188,14 @@ letter-spacing: 0.4px;
 }
 
 .iconfooter i {
+    transition: all .7s ease;
 padding-top: 20px;
     padding-right: 40px;
     width: 32px;
    
 }
 .iconfooter a{
+    
      color: #b2b2b2;
 font-family: "Font Awesome";
 font-size: 46px;
@@ -231,6 +233,7 @@ text-transform: uppercase;}
   
 }
 .sl1menu a{
+    transition: all .7s ease;
     text-decoration: none;
 color: #636363;
 font-family: "Lato - Light";
@@ -253,6 +256,7 @@ font-weight: 700;
     display: none;
 }
 .podmenu li a{
+     transition: all .3s ease;
     text-decoration: none;
     list-style-type: none;
      color: #6f6e6e;
@@ -264,6 +268,7 @@ line-height: 33px;
 
 .menuleft li:hover:first-child .podmenu {
     display: block;
+   
 }
 .menuleft a{
     color: #ef5b70;
@@ -277,6 +282,7 @@ text-transform: uppercase;
 }
 
 .menuleft {
+    float: left;
     margin-top: 30px;
     padding-left: 230px;
 }
@@ -297,5 +303,26 @@ height: 37px;
     padding-right: 10px;
     
 }
+
+
+
+.trending {
+  margin-left: 440px;
+    margin-top: 25px;
+}
+.trending h2{
+color: #6f6e6e;
+font-family: Lato;
+font-size: 14px;
+font-weight: 700;
+line-height: 20px;
+text-transform: uppercase;}
+
+.trending span{
+color: #6f6e6e;
+font-family: Lato;
+font-size: 14px;
+font-weight: 400;
+line-height: 26px;
 
 
