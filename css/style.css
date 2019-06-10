@@ -432,7 +432,7 @@ width: 1600px;
 
 .image:hover .add_to_cart {
     display: flex;
-    background-image: url(/img/1_copy.png.png);
+    background-image: url(../img/1_copy.png);
     width: 261px;
     height: 160px;
     opacity: .8;
@@ -547,7 +547,7 @@ width: 1600px;
 
 .backgrimg {
     position: relative;
-    background-image: url(/img/Layer_39.png);
+    background-image: url(../img/Layer_39.png);
     background-size: cover;
     width: 767px;
     height: 529px;
@@ -911,3 +911,17 @@ line-height: 42px;
 }
 .iconfooter a :hover {
    color: #f16d7f;
+}
+.buttonmy ul li {
+    margin-top: -15px;
+    list-style-type: none;
+}
+.buttonmy button: .muaccount2 {display: flex;}
+.muaccount2 {
+    display: none;
+    padding: 10px;
+}
+.muaccount2 li {
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-bottom: 20px;}
