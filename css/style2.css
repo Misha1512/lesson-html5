@@ -105,7 +105,7 @@ body {
 }
 
 .buttonmy button {
-    margin-top: 31px;
+    margin-top: 48px;
     margin-left: 26px;
     width: 130px;
     border: none;
@@ -119,11 +119,41 @@ body {
     /* Text style for "M, y Accou" */
     letter-spacing: 0.38px;
 }
-
+.muaccount2 {
+    display: none;
+    padding: 10px;
+   
+}
+.muaccount2 li a{
+    text-decoration: none;
+     color: #ffffff;
+    font-family: Lato;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 32px;
+}
 .buttonmy button:hover {
     color: #fefefe;
     box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .18), 0 4px 15px 0 rgba(0, 0, 0, .15);
 }
+.buttonmy:hover .muaccount2 {display:block;
+    flex-wrap: wrap;
+    width: 170px;
+    box-shadow:0 5px 11px 0 rgba(0, 0, 0, .18), 0 4px 15px 0 rgba(0, 0, 0, .15); 
+    margin-top: 10px;
+background:#f16d7f;
+    border-radius: 50px;
+    
+}
+.buttonmy ul li {
+    margin-top: -15px;
+    list-style-type: none;
+}
+
+.muaccount2 li {
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-bottom: 20px;}
 
 nav {
     max-width: 1600px;
@@ -218,12 +248,13 @@ main {
 }
 
 .slade1 {
-    position: relative;
+    
     width: 1610px;
     height: 148px;
     background-color: #f8f3f4;
     display: flex;
     justify-content: space-between;
+overflow: hidden;
 }
 
 .slade1 h3 {
@@ -237,6 +268,7 @@ main {
     line-height: 20px;
     text-transform: uppercase;
 }
+
 
 .sl1menu {
     padding-top: 60px;
@@ -350,6 +382,7 @@ main {
 .size {
     padding-left: 50px;
     width: 214px;
+    padding-right: 100px;
 }
 
 .size p {
@@ -382,3 +415,19 @@ main {
     margin-left: 250px;
 }
 
+
+.trending {
+    padding-right: 100px;
+}
+
+.polosa input{
+    width: 250px;
+}
+
+.search {
+    width: 846px;
+height: 50px;
+background-color: #f3f3f3;
+    margin-left: 280px;
+    margin-top: 100px;
+}
